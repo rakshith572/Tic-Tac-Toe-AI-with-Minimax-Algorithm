@@ -1,7 +1,11 @@
+// here is the brain of these program
+// Minimax
 void bestMove() {
   int bestScore=-10000;
   int x=-1;
   int y=-1;
+// loop through every element  
+// these program in advance visit all element verify
   for (int i=0; i<3; i++) {
     for (int j=0; j<3; j++) {
       if (board[i][j]=="") {
